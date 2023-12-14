@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_tms_task
+    username: postgres
+    password: msbt
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+jwt:
+     secret-key: DDBCADF2481C76F86A1EAC7DBF1AEDDBCADF2481C76F86A1EAC7DBF1AE
+     expiration: 60m
+     
+springdoc:
+  api-docs:
+    path: /tms-docs 

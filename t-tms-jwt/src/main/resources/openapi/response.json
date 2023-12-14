@@ -1,0 +1,128 @@
+{
+	"BadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Bad request"
+	},
+	"autorizedResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "\"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBZG1pbiIsIlVzZXIiXSwic3ViIjoibWFpbF8xIiwiaWF0IjoxNzAyNDAxODk3LCJleHAiOjE3MDI0MDM2OTd9.SQ-0K4JjoK0Svj4fkUXglLFilPL0VtfcXHSUtCBlZk4\""
+	},
+	"unautorizedResponse": {
+		"code": 401,
+		"status": "Unauthorized",
+		"message": "Не удалось войти!"
+	},
+	"registerResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "{\"id\": 4, \"username\": \"new_user\", \"email\": \"mail_4\"}"
+	},
+	"taskFindResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "json array of task"
+	},
+	"taskFindEmptyResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Нет созданных задач"
+	},
+	"authorTaskFindEmptyResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Пользователь не создавал задачи"
+	},
+	"authorTaskFindResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "json array of task by author"
+	},
+	"authorTaskFindBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Не удалось найти"
+	},
+	"performerTaskFindResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "json array of task by performer"
+	},
+	"performerTaskFindEmptyResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Нет задач для данного пользователя"
+	},
+	"performerTaskFindBadRequest": {
+		"code": 400,
+		"status": "success",
+		"message": "Не удалось найти"
+	},
+	"changeTaskStatusResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Cтатус изменен"
+	},
+	"changeTaskStatusBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Нет прав для изменения статуса"
+	},
+	"updateTaskResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Задача изменена"
+	},
+	"updateTaskBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Нет прав для изменения задачи"
+	},
+	"deleteTaskResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Задача удалена"
+	},
+	"deleteTaskBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Нет прав для удаления задачи"
+	},
+	"createTaskResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Задача создана"
+	},
+	"createTaskBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Не удалось сохранить задачу"
+	},
+	"addCommentResponse": {
+		"code": 200,
+		"status": "success",
+		"message": "Комментарий добавлен"
+	},
+	"addCommentBadRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Не удалось добавить комментарий, задача с ID: 3 не найдена"
+	},
+	"forbiddenResponse": {
+		"code": 403,
+		"status": "Forbidden",
+		"message": "Forbidden"
+	},
+	"badRequest": {
+		"code": 400,
+		"status": "Bad request",
+		"message": "Bad request"
+	},
+
+	"registerBadRequest": {
+		"code": 400,
+		"status": "Bad request!",
+		"message": "Данная почта существует"
+	}
+}
